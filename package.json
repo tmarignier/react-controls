@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Up-Group/react-controls#readme",
   "scripts": {
+    "clean": "rimraf dist && rimraf test/dist",
     "build": "tsc && copyfiles -u 1 src/Common/theming/base.css dist/ && copyfiles -u 1 src/Common/theming/icons/*.* dist/"
   },
   "devDependencies": {
