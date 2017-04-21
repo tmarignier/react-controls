@@ -1,4 +1,4 @@
-import * as React from 'react';
+*import * as React from 'react';
 import Component from './styles';
 import Props from './types';
 
