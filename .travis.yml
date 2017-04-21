@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "stable"
+- stable
+deploy:
+  provider: npm
+  email: thibault.marignier@gmail.com
+  api_key:
+    secure: Zt0YV4Yk2zIEunbD3oW5FmT3/8SgT9QSKaeq5zC0RPx8aSA/UC/ozFzpN8ZqagYQ11NUoR0bLyi3tiOPHD4hoUDAJJGlHyGbUE/pLOsa5bXH552YE4D5sCVqR5E3fRv07yiwllYr53BovzjPMsrT5wFreTGBh5i1atcbZ+h03piSvcjxeLB62zEuQHkL51BiCxC+4JZ3WZI94ZjJG+ie5fBsJ9ya/9yxLFNPyg6Hd7IWUh87UyLNnn7z8+Y87wo1nN9wjs8EUwoeYIaTK2fxmq8E8Gvuj4q/UtAZ4hE/9k4NKrH1YUGTtXbf1Q5pMJi0/5x27NSCJld+2Qfvwpgpj9oggxl1EM8KN+bhIc2FrhyUm3+bXGI9Mc019kAX/MMyK4hlyrfew6w1UPGutcOHCIDr4QtAsaf87FbPm1Ku7S8I3VFLPF0pqDoEq1LajvV5/LZtAueM8Vrp5EpkxZL2dzFw4+CUNivfujmhOVrRKB6x6cgYNUAZl2uh4dsR2if/DP552ZbdF8quiu7wFs/Be/GtxPs/TcfGUmlAa0rYHC1fG/7ldZKy3xKli2BIhYEHOAc4DTjzgbsB/fWMcMRqSK02tsg3OsNdCqKkD+gU13s3yliorbg8Tue4pJZWDJm9lxWojiDDuruk/2VO9V7RhQomwfdDYNh5z5Yo86YcsKs=
+  on:
+    repo: tmarignier/react-controls
