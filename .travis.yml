@@ -4,7 +4,7 @@ node_js:
     - 'stable'
 
 script:
-    "npm run build"
+    "run build"
 
 deploy:
   provider: npm
