@@ -1,4 +1,4 @@
-import UpCheckbox from './UpCheckbox'
+import UpCheckbox from './UpCheckBox'
 import { ThemedProps } from '../../../Common/theming/types' 
 
 export type Position = 'left' | 'right' ;
